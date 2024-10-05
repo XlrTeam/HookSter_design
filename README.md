@@ -13,7 +13,7 @@ Here are some key highlights of HookSter_design:
   
 ## Key Components
 
-- **[AnimatedOrb](https://github.com/XlrTeam/HookSter_design/tree/main/OrbDesign)**: A grid layout with hover effects, including smooth transitions and color changes for user interaction.
+- **[AnimatedOrb](https://github.com/XlrTeam/HookSter_design/tree/main/OrbDesign)**: A orb design with hover effects, including smooth transitions and color changes for user interaction.
 
 
 ## Technologies Used
