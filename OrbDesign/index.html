@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbiting Electrons</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<body>
+    <div class="container">
+        <div 
+            class="nucleus"
+            onmouseenter="handleMouseEnter()"
+            onmouseleave="handleMouseLeave()"
+        >
+            <span class="icon-nucleus">XLR</span>
+        </div>
+
+        <!-- Orbits -->
+        <div class="orbit orbit-1">
+            <div class="electron">
+                <i class="fa-brands fa-react"></i>
+                <div class="popup">ReactJS</div>
+            </div>
+        </div>
+        <div class="orbit orbit-2">
+            <div class="electron">
+                <i class="fa-brands fa-css3-alt"></i>
+                <div class="popup">TailwindCSS</div>
+            </div>
+        </div>
+        <div class="orbit orbit-3">
+            <div class="electron">
+                <i class="fa-brands fa-python"></i>
+                <div class="popup">Python</div>
+            </div>
+        </div>
+        <div class="orbit orbit-4">
+            <div class="electron">
+                <i class="fa-solid fa-mobile"></i>
+                <div class="popup">Mobile</div>
+            </div>
+        </div>
+        <div class="orbit orbit-5">
+            <div class="electron">
+                <i class="fa-solid fa-server"></i>
+                <div class="popup">Server</div>
+            </div>
+        </div>
+        <div class="orbit orbit-6">
+            <div class="electron">
+                <i class="fa-solid fa-house"></i>
+                <div class="popup">Hone</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
